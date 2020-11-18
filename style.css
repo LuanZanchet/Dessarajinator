@@ -74,3 +74,20 @@
             color:white;
        
         }
+        @media (max-width: 768px) {
+            .depois{
+                width: 95%;
+            }
+            .titulo{
+                width: 95%;
+            }
+            .search_input{
+                width: 320px;
+            }
+            .searchbar:hover > .search_input{
+                padding: 0 10px;
+                width: 320px;
+                caret-color:red;
+                transition: width 0.4s linear;
+                }
+         }

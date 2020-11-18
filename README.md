@@ -7,7 +7,7 @@ Uma permutação dos elementos dessa sequência é dita uma Permutação Caótic
 ## Instalação
 
 ```sh
-acesse: permutacaocaotica.netlify.com
+acesse: permutacaocaotica.netlify.app
 
 ```
 
