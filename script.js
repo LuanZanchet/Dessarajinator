@@ -3,6 +3,10 @@ function Desarranjo()
 {
   
  var n=document.getElementById('input').value;
+ if(n > 21){
+	 n = 21;
+	 document.getElementById('input').value = 21;
+ }
 
  var frac3=0
  for(i=2;i<=n;i++)
