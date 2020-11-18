@@ -37,6 +37,6 @@ function Desarranjo()
 		}
     des=frac3*fat1;
     
-    document.getElementById('resultado').innerText = "A quantia de desarranjos para "+n+" termos é: "+ des;
+    document.getElementById('resultado').innerText = "A quantia de desarranjos para "+n+" termos é: "+ des.toFixed(2);
 	
 }
