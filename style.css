@@ -5,7 +5,7 @@
         margin: 0;
         padding: 0;
         background: #e74c3c !important;
-        }
+    }
     
         .searchbar{
         margin-bottom: auto;
@@ -13,7 +13,7 @@
         height: 60px;
         background-color: #353b48;
         border-radius: 30px;
-        padding: 10px;
+        padding: 5px;
         }
     
         .search_input{
@@ -55,39 +55,100 @@
             width: 50%;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 200px;
+            margin-top: 100px;
             text-align: center;
             color:white;
        
         }
         .titulo h2 {
             font-size: 65px;
-            font-family: 'Cedarville Cursive', cursive;
+            font-family: 'Lato', sans-serif;
         }
         
         .depois{
             width: 50%;
             margin-left: auto;
             margin-right: auto;
-         
             text-align: center;
             color:white;
        
         }
-        @media (max-width: 768px) {
+    
+        
+         .fa-instagram{
+             color: white;
+         }
+        .texto-footer{
+            color:white;
+            float: right;
+            font-size: 30px;
+         }
+         a:link {
+            color: white;
+          }
+        
+          a:visited {
+            color: white;
+          }
+         
+          a:hover {
+            color: white;
+          }
+         
+          a:active {
+            color: white;
+          }
+         footer{
+            bottom: 0;
+            position: fixed;
+            text-align: right;
+            right: 2%;
+         }
+         @media screen and (max-width: 768px) {
             .depois{
                 width: 95%;
+            }
+            #resultado{
+                font-size: 20px;
             }
             .titulo{
                 width: 95%;
             }
-            .search_input{
-                width: 320px;
+            .searchbar{
+                padding: 0px;
             }
-            .searchbar:hover > .search_input{
+            .search_input{
+                color: white;
+                border: 0;
+                outline: 0;
+                height: 40px;
                 padding: 0 10px;
-                width: 320px;
+                background: none;
+                width: 95%;
+                caret-color:transparent;
+                line-height: 2px;
+                transition: width 0.4s linear;
+                }
+            
+                .searchbar:hover > .search_input{
+                padding: 0 10px;
+                width: 95%;
                 caret-color:red;
                 transition: width 0.4s linear;
                 }
-         }
+                
+                .titulo h2 {
+                    font-size: 35px;
+                    font-family: 'Lato', sans-serif;
+                }
+                .titulo{
+                    width: 100%;
+                }
+                  
+                .texto-footer{
+                    font-size: 13px;
+                 }
+                 .search_icon{
+                     margin-top: -35px;
+                }
+        }

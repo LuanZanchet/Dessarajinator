@@ -1,5 +1,5 @@
 # Dessarajinator - Permutação Cáotica
-> Receba o resultado do seu desaranjo, simples e rápido!
+> Algoritmo desenvolvido por: Bruno Pagani [@paganizera](https://www.instagram.com/paganizera/)
 
 Uma permutação dos elementos dessa sequência é dita uma Permutação Caótica ou um Desarranjo quando nenhum dos elementos ai está na sua posição original, isto é, na i-ésima posição. Denotaremos por Dn o número de permutações caóticas de n elementos.
 ![](screenshot.png)
